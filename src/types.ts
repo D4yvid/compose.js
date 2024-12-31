@@ -1,4 +1,4 @@
-import type { ComposableInstance } from "./compose";
+import type { ComposableInstance } from "./compose.js";
 
 export type WrappedComposableInstance<T> = ComposableInstance<T> &
   ((...children: any[]) => ComposableInstance<T>);

@@ -1,5 +1,5 @@
-import { Signal } from "./signal";
-import { MutableState, State } from "./state";
+import { Signal } from "./signal.js";
+import { MutableState, State } from "./state.js";
 
 import type {
   WrappedComposableInstance,
@@ -7,7 +7,7 @@ import type {
   ComposableInformation,
   ComposableFactory,
   ComposableRender,
-} from "./types";
+} from "./types.js";
 
 type RememberedStateMap = {
   [key: string]: {

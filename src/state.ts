@@ -1,4 +1,4 @@
-import { ComposableInstance } from "./compose";
+import { ComposableInstance } from "./compose.js";
 
 export class MutableState<T> {
   private readonly composable: ComposableInstance<any>;

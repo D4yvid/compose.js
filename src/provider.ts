@@ -1,4 +1,4 @@
-import { Composable, ComposableInstance } from "./compose";
+import { Composable, ComposableInstance } from "./compose.js";
 
 type ContextProviderConstructor<T> = (_: T, c: ComposableInstance<LocalContextProviderProps<T>>) => ContextProvider<T>;
 type LocalContextProviderProps<T> = [ContextProviderConstructor<T>, T];
