@@ -1,0 +1,19 @@
+{
+  "name": "compose.js",
+  "version": "1.0.0",
+  "description": "An UI library for JS",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "module": "index.ts",
+  "types": "dist/types.d.ts",
+
+  "dependencies": {
+    "typescript": "^5.6.3"
+  }
+}
